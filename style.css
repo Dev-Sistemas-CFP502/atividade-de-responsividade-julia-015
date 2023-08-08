@@ -60,14 +60,40 @@ p {
 }
 
 .introducao-img{
-  display: flex;
+  display: grid;
   gap: 1rem;
   border-radius: 10px;
   align-items: center;
   background-color: #111111;
   padding: 1rem;
-  
 }
+
+
+aside{
+  width: 100%;
+  overflow: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  height: 400px;
+  padding: 1px;
+}
+
+aside img{
+  width: 100%;
+  display: inline-block;
+}
+
+
+::-webkit-scrollbar{
+  background-color: #d9d9d9;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #ffbb00;
+}
+
+
 
 .introducao-img::-webkit-scrollbar {
   background: #222;
@@ -149,4 +175,3 @@ p {
   color: #ffbb00;
   font-size: 2rem;
 }
-
