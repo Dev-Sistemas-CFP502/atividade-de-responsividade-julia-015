@@ -61,6 +61,7 @@ p {
 
 .introducao-img{
   display: flex;
+  flex-direction: row;
   gap: 1rem;
   border-radius: 10px;
   align-items: center;
