@@ -60,7 +60,6 @@ p {
 
 .introducao-img{
   display: flex;
-  flex-direction: row;
   gap: 1rem;
   border-radius: 10px;
   align-items: center;
@@ -76,6 +75,7 @@ aside{
   white-space: nowrap;
   height: 450px;
   padding: 1px;
+  align-items: center;
 }
 
 aside img{
