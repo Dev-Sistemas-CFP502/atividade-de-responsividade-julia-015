@@ -191,6 +191,59 @@ aside img{
 
 
 
+
+@media (min-width: 320px){
+  .header {
+    font-size: 1.5rem;
+  }
+
+  .menu ul{
+    flex-direction: column;
+    flex-wrap: wrap;
+    object-fit: cover;
+  }
+
+  .menu li{
+    text-align: center;
+  }
+
+  .menu a {
+    padding: 0.5rem 1rem;
+  }
+
+  .introducao h2 {
+    font-size: 2rem;
+  }
+
+  .introducao p {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .introducao-img img {
+    height: 15rem;
+  }
+
+  .vantagens{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .vantagens-titulo {
+    font-size: 2rem;
+  }
+
+  .conteudo{
+    flex-direction: column;
+  }
+
+  .conteudo botao{
+    align-items: center;
+  }
+}
+
+
 /* Mobile */
 @media (min-width: 320px) and (max-width: 600px) {
   .header {
