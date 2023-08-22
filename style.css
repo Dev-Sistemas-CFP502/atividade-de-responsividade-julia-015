@@ -192,7 +192,7 @@ aside img{
 
 
 
-@media (min-width: 320px){
+@media (max-width: 320px){
   .header {
     font-size: 1.5rem;
   }
